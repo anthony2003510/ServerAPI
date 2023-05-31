@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ws_response>
+    <head>
+        <server_id>1</server_id>
+        <server_time>2023-05-23</server_time>
+        <execution_time>0.031903982162476 miliseconds</execution_time>
+        <url>
+            http://localhost:40080/M7/ServerAPI/_ws_0_1.php?action=register&user=Maria&email=MariaDelCarmen@gmail.c&pwd=estaeslacontrase%C3%B1ademama</url>
+        <webmethod>
+            <name>register</name>
+            <parameters>
+                <param>
+                    <name>action</name>
+                    <value>register</value>
+                </param>
+                <param>
+                    <name>user</name>
+                    <value>Maria</value>
+                </param>
+                <param>
+                    <name>email</name>
+                    <value>MariaDelCarmen@gmail.c</value>
+                </param>
+                <param>
+                    <name>pwd</name>
+                    <value>estaeslacontraseñademama</value>
+                </param>
+            </parameters>
+        </webmethod>
+        <errores>
+            <error>
+                <param>user</param>
+                <num_error>0</num_error>
+                <message_error>todo correcto, error 0</message_error>
+                <severity>0</severity>
+                <user_message>no hay que arreglar nada, todo esta bien</user_message>
+            </error>
+            <error>
+                <param>email</param>
+                <num_error>0</num_error>
+                <message_error>todo correcto, error 0</message_error>
+                <severity>0</severity>
+                <user_message>no hay que arreglar nada, todo esta bien</user_message>
+            </error>
+            <error>
+                <param>pwd</param>
+                <num_error>0</num_error>
+                <message_error>todo correcto, error 0</message_error>
+                <severity>0</severity>
+                <user_message>no hay que arreglar nada, todo esta bien</user_message>
+            </error>
+        </errores>
+    </head>
+    <body>
+        <response_data>
+            <XMLresponse>
+                <error>1</error>
+                <message>usuario ya registrado</message>
+            </XMLresponse>
+        </response_data>
+    </body>
+</ws_response>
